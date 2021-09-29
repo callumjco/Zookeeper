@@ -1,0 +1,12 @@
+#Feature: Elephant eats twigs and berries
+#  The elephant wants to eat twigs and berries
+#
+#  Scenario: twigs and branches are available to eat
+#    Given twigs and branches are available to eat
+#    When I get hungry and look for food
+#    Then I should be told "Yummy"
+#
+#  Scenario: twigs and branches are unavailable to eat
+#    Given twigs and branches are not available to eat
+#    When I get hungry and look for food
+#    Then I should be told "I'm starving"
