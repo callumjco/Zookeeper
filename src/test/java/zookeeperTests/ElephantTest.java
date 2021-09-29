@@ -17,7 +17,7 @@ public class ElephantTest {
     @Test
     @DisplayName("Test the sound an elephant makes")
     public void testElephantSound(){
-        Elephant testElephant = new Elephant ("Dumbo", LocalDate.now(), "grey");
+        Elephant testElephant = new Elephant ("Dumbo", "grey", 12);
         assertEquals("Tooooooot", testElephant.toot(),"I do not make that sound");
 
     }
