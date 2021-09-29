@@ -8,18 +8,17 @@ import zookeeper.Mammal;
 
 import javax.lang.model.element.Name;
 
+import java.time.LocalDate;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ElephantTest {
 
     @Test
     @DisplayName("Test the sound an elephant makes")
-    public void testElephantSound(name "Dumbo", ){
-        Elephant testElephant = new Elephant()
-        assertEquals("Live birth", elephant.sound(),"The way of reproduction is not the same");
-         {
+    public void testElephantSound(){
+        Elephant testElephant = new Elephant ("Dumbo", LocalDate.now(), "grey");
+        assertEquals("Tooooooot", testElephant.toot(),"I do not make that sound");
 
-
-        }
     }
 }
